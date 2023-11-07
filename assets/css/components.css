@@ -1,4 +1,4 @@
-nav.navigation {
+/* nav.navigation {
     border: 2px dashed red;
     height: 100px;
     text-align: center;
@@ -44,4 +44,24 @@ img.photo {
 .colomn-2 p{
     width: 33.33%;
     float: left;
+} */
+@media(max-width:800px) {
+    /* within 800 */
+    body{
+        background-color: rgb(194, 240, 240);
+    }
 }
+@media(min-width:800px)and(max-width:1200px){
+    body{
+        background-color: #ca3232;
+    }
+}
+
+@media(min-width:1200px) {
+    /* up to and include 1200px */
+    body {
+        background-color: #cacaca;
+    }
+}
+
+
