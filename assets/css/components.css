@@ -1,0 +1,47 @@
+nav.navigation {
+    border: 2px dashed red;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 50px;
+}
+
+nav.navigation a {
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 0 10px;
+    transition: color 400ms;
+
+}
+
+nav.navigation a:hover{
+    color: rgb(206, 31, 104);
+}
+
+footer {
+    background-color: rgb(78, 73, 73);
+    height: 100px;
+   
+    
+}
+button.button {
+    width:180px;
+    height:40px;
+    background-color: aqua;
+    display: block;
+}
+img.photo {
+    float:left;
+    max-width: 50%;
+    padding: 20px;
+}
+.colomn {
+    border: 2px solid red;
+    float: left;
+    padding-bottom: 50px;
+   
+}
+.colomn-2 p{
+    width: 33.33%;
+    float: left;
+}

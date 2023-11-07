@@ -1,0 +1,18 @@
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2em;
+    color: var(--primary-color);
+}
+
+/* @font-face{
+    font-family:"My custom font";
+    crs:url("")
+} */
+ p{
+    font-variant: small-caps;
+ }
